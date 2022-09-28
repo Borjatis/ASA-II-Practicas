@@ -1,0 +1,16 @@
+#-- Programa para asignar el valor 3 al registro x3
+
+	.text
+	
+	#-- Hacer calculo (x6 = 0)
+	#-- addi rd, rs, valor
+	#-- rd = rs + valor
+	#-- x6 = x0 + 0 ---> x6 = 0
+	addi x6, x0, 0
+	
+	#-- Decrementar el registro x3 en una unidad
+	addi x6, x6, -1  #-- x3 = x3 - 1
+	
+	#-- El valor hexadecimal del registro 6 al terminar el programa
+	#-- es de 0xffffffff (8f's)
+	

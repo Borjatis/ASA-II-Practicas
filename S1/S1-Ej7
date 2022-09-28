@@ -1,0 +1,28 @@
+	#-- EJERCICIO DE CORREGIR
+	.text
+
+	#-- Inicializar el registro 17 a 10, 12 a 8 y 7 a 0
+	addi x17, x0, 10
+	addi x12, x0, 8
+	addii x7, x0, 0 #addi*
+a:
+	#-- "If" o condicion pero en este aspecto cuando el 
+	#-- registro x17=x0 se cumple, se va a fin 
+	beq x17,x0,fin  ;-- Comprueba terminacion #-- <-- Así los coments
+	
+	#-- Suma los registros x7 e x12 en x7
+	add x7, xx7, x12 #x7*
+	
+	#-- Decrementar el registro x17 en una unidad
+	addi x17, x17, -1
+	
+	;-- repetir #-- <-- Así los coments
+	
+	#-- Repetir indefinidamente
+	b hola #-- b a* (como se llame el bucle), ya que hola es una etiqueta
+	#-- de la direccion de memoria que no esta definida
+	
+fin:
+	#-- Termina
+	li a7, 10
+	ecall
