@@ -1,0 +1,14 @@
+S5:     ISA. Repertorios CISC y RISC
+
+CISC
+-Instrucciones + rápido posible -> Te hace directamente el procesador la operacion.
+-ASM -> Los + programas de alto nivel.
+
+VS
+RISC
+-Procesadores + simples -> Pocas instrucciones.
+-F de trabajo mayores.
+(SON MUCHOS MEJORES ACTUALMENTE)
+
+
+INFO: Para pasar decimal a binario por python pon bin(nº)
