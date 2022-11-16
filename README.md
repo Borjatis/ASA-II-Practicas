@@ -1,2 +1,2 @@
 # ASA-II-Practicas
-Mis prácticas de ASA II
+Mis prácticas de Arquitectura en computadores (Ensamblador)
